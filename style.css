@@ -1,9 +1,13 @@
-header {background-color: yellow; }
-body {background-image: url(../Bloompetals/images/fond.png);}
+header {background-color: rgb(255, 255, 255); }
+body     {background-color: #ffffff;}
 body img { size: 500px;}
 
-
-p { font-family: "Montserrat", sans-serif;}
+footer {background-color: #a799b7;
+        background: linear-gradient(0deg, rgba(167,153,183,1) 0%, rgba(152,136,165,1) 100%);
+        margin-top: 100px;}
+p {font-family: "Montserrat", sans-serif;}
+q {font-family: "Montserrat", sans-serif;
+    text-align:center;}
 
 /* BARRE DE NAVIGATION */
 nav { font-family:"Pacifico";
@@ -13,15 +17,15 @@ nav { font-family:"Pacifico";
      flex-wrap: wrap;
      padding: 20px;
      justify-content:space-between;
-    background-color: #a799b7;
-    background: linear-gradient(0deg, rgba(167,153,183,1) 0%, rgba(152,136,165,1) 100%);}
+     background-color: #a799b7;
+     background: linear-gradient(0deg, rgba(167,153,183,1) 0%, rgba(152,136,165,1) 100%);}
 nav a { color: #161215;
         text-decoration: none;
         font-size: large;}
 nav a:hover { text-decoration: underline;
               opacity: 0.7;}
 /* ID POUR LA BARRE DE RECHERCHE */
-    #cherche { border: 1px solid #382E36;
+    #cherche { border: 1px solid #ffffff;
               border-radius: 50px;}
 
 
@@ -30,14 +34,16 @@ h1 { font-family: "Pacifico";
      text-align: center;
      color:#2D252B;}
      
-h2 { font-family: "Quicksand";
-    text-decoration: underline;
-    font-weight: 450;}
+h2  { font-family: "Quicksand";
+     text-decoration: underline;
+     font-weight: 450;
+     text-align: center;}
 
 section {display: flex;
-        flex-direction: column;
-     background-color: #a799b7;
-      margin-top: 100px;}
+         flex-direction: column;
+         background-color: #a799b7;
+         margin-top: 100px;
+         padding: 50px; }
 .important { font-weight: bold;
             text-decoration: underline;}
 .mots1 {font-weight: 600;}
@@ -73,7 +79,7 @@ ul div li { background-color: none;
           padding: 10px;
         margin-top: 60px;
         margin-bottom: 65px;
-       border-color: #2D252B;
+       border-color: #ffffff;
     border-style: solid;}
 
 
