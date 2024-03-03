@@ -1,4 +1,5 @@
-body     {background-color: #F3EDE2;} 
+body     {background-color: #F3EDE2;
+           font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;} 
 header {background-color: rgb(255, 255, 255); }
 
 h1{
@@ -13,19 +14,19 @@ h2{  font-family: "Quicksand";
      text-align: center;
 }
 
-footer{
-     background-color: #a799b7;
-     background: linear-gradient(0deg, rgba(167,153,183,1) 0%, rgba(152,136,165,1) 100%);
-     margin-top: 100px;}
-
 p {font-family: "Montserrat", sans-serif;
-   align-items: center;}
+   align-items: center;
+}
 q{
      font-family: "Montserrat", sans-serif;
      font-style: italic;
      align-items:center;
 }
-
+footer{
+     background-color: #a799b7;
+     background: linear-gradient(0deg, rgba(167,153,183,1) 0%, rgba(152,136,165,1) 100%);
+     margin-top: 100px;
+}
 /* BARRE DE NAVIGATION */
 nav { 
      font-family:"Pacifico";
@@ -48,29 +49,31 @@ nav a:hover { text-decoration: underline;
     #cherche { border: 1px solid #f25959;
               border-radius: 50px;}
 
-
-
-
-
-section {display: flex;
-         flex-direction: column;
-         background-color: #a799b7;
+section {
+         background-color: #f4eaff;
          margin-top: 100px;
-         padding: 50px; }
-.important { font-weight: bold;
-            text-decoration: underline;}
+         padding: 50px;
+         border-top: 3px solid #f25959;
+         border-bottom: 3px solid #BFA886;
+}
+
+
+.boite ul {
+           display: flex;
+           flex-direction: row;
+           margin-top: 50px;}
+.important {
+      color:#785b98;
+      font-weight: bold;
+      text-decoration: underline;
+      font-size: large;
+}
+
+
 .mots1 {font-weight: 600;}
 .mots2
 
 
-
-.services {background-color: rgb(161, 68, 68);
-    border-radius: 10%;
-          padding: 10px;
-        margin-top: 60px;
-        margin-bottom: 65px;
-       border-color: #ffffff;
-    border-style: solid;}
 
 
 
@@ -90,3 +93,8 @@ section {display: flex;
              width:250px;
              height:auto;
              object-fit:contain;}
+
+
+
+
+             
